@@ -30,13 +30,3 @@ if os.path.isfile('./config.yaml'):
 else:
     print('No config.yaml file found, make sure to add your info to config.yaml.example and rename it to config.yaml')
     quit()
-
-if not os.path.isfile('./maie.db'):
-    conn = sqlite3.connect('maie.db')
-    c = conn.cursor()
-    c.execute('''CREATE TABLE wordfilter (id INTEGER PRIMARY KEY AUTOINCREMENT, chatid int, word text)''')
-    c.execute('''CREATE TABLE quote (id INTEGER PRIMARY KEY AUTOINCREMENT, chatid int, quote text, user text)''')
-    c.execute('''CREATE TABLE reminder (id INTEGER PRIMARY KEY AUTOINCREMENT, chatid int, text text, date text, reminded int DEfAULT 0)''')
-
-    conn.commit()
-    conn.close()
