@@ -1,0 +1,3 @@
+python-telegram-bot
+cryptocompare
+nh-currency==1.0.1
