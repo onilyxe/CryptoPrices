@@ -1,5 +1,6 @@
 # 🪙 Crypto Prices Bot for Telegram
 Telegram bot that shows price of cryptocurrencies
+
 [Try the my bot](https://t.me/CryptoPricesPBot)
 
 About
