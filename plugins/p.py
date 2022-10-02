@@ -1,8 +1,6 @@
 from plugins import new_message, enable_check
 import cryptocompare
 import currency
-import requests
-import yaml
 
 
 def p(update, context):
