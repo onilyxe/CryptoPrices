@@ -26,7 +26,7 @@ TELEGRAM:
 CRYPTO:
   API_KEY: your-coinmarketcap-api_key
 ```
-* `API_KEY` is token for your Telegram bot. You can get it here: [BotFather](https://t.me/BotFather).
+* `API_KEY` is token for your Telegram bot. You can get it here: https://t.me/BotFather.
 * `LIST_OF_ADMINS` is list id
 
 ## Running
