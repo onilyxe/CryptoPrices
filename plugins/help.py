@@ -1,14 +1,15 @@
-import plugins
+from plugins import new_message, enable_chec
 
 
 def help(update, context):
-    plugins.new_message.new_message(update)
+    new_message.new_message(update)
 
-    if plugins.enable_check.enable_check(__name__):
+    if enable_check.enable_check(__name__):
         return
     
     context.bot.send_message(chat_id=update.message.chat_id, parse_mode='markdown', text=
-    "⚙️*Список команд:*\n*/start* — _запустить бота._"+
+    "⚙️*Список команд:*"+
+    "\n*/start* — _запустить бота._"+
     "\n*/help* — _это сообщение._"+
     "\n*/btc* — _краткая цена BTC в $_"+
     "\n*/pbtc* — _цена BTC в 4-х валютах. (USD, EUR, UAH, RUB)_"+
