@@ -7,6 +7,8 @@ About
 ------------
 **A simple telegram bot that shows the price of cryptocurrencies. Used by the Cryptocompare API. The bot also works in group chats.**
 
+**`plugin` - plugin management**
+
 Installation
 ------------
 ```shell
