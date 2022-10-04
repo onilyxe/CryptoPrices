@@ -1,4 +1,4 @@
-from plugins import new_message, enable_chec
+from plugins import new_message, enable_check
 
 
 def help(update, context):
